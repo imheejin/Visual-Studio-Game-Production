@@ -1,0 +1,358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\디버그">
+      <UniqueIdentifier>{62eb4f28-a432-48be-82f5-85e618f6cb0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\디버그">
+      <UniqueIdentifier>{877c551f-a7fe-4aea-b12a-8566096f3827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\엔진">
+      <UniqueIdentifier>{eff3f271-46c4-4e8b-b428-615a3b904b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\엔진">
+      <UniqueIdentifier>{8394a400-dec3-41f7-9101-172539b62967}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\타이틀씬">
+      <UniqueIdentifier>{486024d2-3dc2-4fc9-b234-d81c0c895131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\타이틀씬">
+      <UniqueIdentifier>{af7b784b-0a0f-4712-abed-c1f60d9ffc5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\게임씬">
+      <UniqueIdentifier>{aa11e954-cfe1-4c10-8390-88b61dfe3033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\게임씬">
+      <UniqueIdentifier>{f977092c-abc7-4dd1-8790-238a63ca494c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\엔딩씬">
+      <UniqueIdentifier>{bad533c9-23d2-4111-ae1b-9b56798acf76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\엔딩씬">
+      <UniqueIdentifier>{19697bd1-d983-4d74-98c3-33cfe9b2d7d1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="exec2DGame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="debug.h">
+      <Filter>헤더 파일\디버그</Filter>
+    </ClInclude>
+    <ClInclude Include="bmp.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameWork.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="graphic.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>헤더 파일\타이틀씬</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteObject.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBG1.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBG2.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectPool.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleBG.h">
+      <Filter>헤더 파일\타이틀씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="TestObj.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Stone.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Rasengan.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="SnakeDeath.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Ninja.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Scythe.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="ColPair.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaDeath.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="ESpawner.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="NinjaEffect.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="HPItem.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDeath.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Label.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyingLabel.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Icon.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameover.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Bar.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+    <ClInclude Include="StartButton.h">
+      <Filter>헤더 파일\타이틀씬</Filter>
+    </ClInclude>
+    <ClInclude Include="ExitButton.h">
+      <Filter>헤더 파일\타이틀씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingScene.h">
+      <Filter>헤더 파일\엔딩씬</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingBG.h">
+      <Filter>헤더 파일\엔딩씬</Filter>
+    </ClInclude>
+    <ClInclude Include="BossFx.h">
+      <Filter>헤더 파일\게임씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>헤더 파일\엔진</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="exec2DGame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="debug.cpp">
+      <Filter>소스 파일\디버그</Filter>
+    </ClCompile>
+    <ClCompile Include="bmp.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameWork.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="graphic.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>소스 파일\타이틀씬</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteObject.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBG1.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBG2.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectPool.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleBG.cpp">
+      <Filter>소스 파일\타이틀씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="TestObj.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Stone.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Rasengan.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="SnakeDeath.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Ninja.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Scythe.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="ColPair.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaDeath.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="ESpawner.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="NinjaEffect.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="HPItem.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDeath.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Label.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyingLabel.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Icon.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameover.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Bar.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+    <ClCompile Include="StartButton.cpp">
+      <Filter>소스 파일\타이틀씬</Filter>
+    </ClCompile>
+    <ClCompile Include="ExitButton.cpp">
+      <Filter>소스 파일\타이틀씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingScene.cpp">
+      <Filter>소스 파일\엔딩씬</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingBG.cpp">
+      <Filter>소스 파일\엔딩씬</Filter>
+    </ClCompile>
+    <ClCompile Include="BossFx.cpp">
+      <Filter>소스 파일\게임씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>소스 파일\엔진</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="exec2DGame.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="exec2DGame.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
